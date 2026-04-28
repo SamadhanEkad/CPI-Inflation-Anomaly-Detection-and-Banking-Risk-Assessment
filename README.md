@@ -2,4 +2,4 @@
 CPI Inflation Anomaly Detection &amp; Banking Risk Assessment using ARIMA, SARIMA, GARCH, Isolation Forest, and XGBoost with a custom Combined Banking Risk Index (CBRI) for multi-level risk classification and forecasting.
 
 ## 📊 Presentation
-[Download Project Presentation](presentation/CPI_Anomaly_Banking_Risk.pptx)
+[Download Project Presentation]([presentation/CPI_Anomaly_Banking_Risk.pptx](https://github.com/SamadhanEkad/CPI-Inflation-Anomaly-Detection-and-Banking-Risk-Assessment/blob/main/CPI_Anomaly_Banking_Risk_Presentation_Updated.pptx))
