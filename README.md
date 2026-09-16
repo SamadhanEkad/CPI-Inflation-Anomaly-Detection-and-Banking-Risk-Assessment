@@ -2,7 +2,7 @@
 
 Detecting abnormal inflation periods in Indian CPI data (2014–2024) and translating them into a single, interpretable banking risk score using five anomaly-detection methods, a custom risk index, and XGBoost forecasting.
 
-![CBRI Timeline](images/cbri_timeline.png)
+![CBRI Timeline](cbri_timeline.png)
 
 ## Problem
 
@@ -29,7 +29,7 @@ Banks need early warning when inflation is behaving abnormally — not just when
 
 ### Each method catches different anomalies
 
-![Anomaly Heatmap](images/anomaly_heatmap.png)
+![Anomaly Heatmap](anomaly_heatmap.png)
 
 | Method | Anomalies Detected | What it uniquely catches |
 |---|---|---|
@@ -43,7 +43,7 @@ No single method dominates — this is the justification for combining them rath
 
 ### Risk tiers map to real banking-relevant events
 
-![Risk Tier Distribution](images/risk_tier_distribution.png)
+![Risk Tier Distribution](risk_tier_distribution.png)
 
 69.2% of the 10-year period was classified Normal. The High/Critical periods (17.5% combined) line up with known events:
 
@@ -60,7 +60,7 @@ No single method dominates — this is the justification for combining them rath
 
 ### Forecast accuracy: XGBoost beats classical time series, but CBRI didn't help this split
 
-![Model Comparison](images/model_comparison.png)
+![Model Comparison](model_comparison.png)
 
 | Model | MAE | RMSE | MAPE |
 |---|---|---|---|
@@ -85,7 +85,7 @@ Python · pandas · NumPy · statsmodels (ARIMA/SARIMA) · arch (GARCH) · sciki
 ├── cpi_anomaly_detection.ipynb   # Full analysis notebook (6 phases, 20 sections)
 ├── data/
 │   └── CPI.xlsx                  # Source dataset
-├── images/                       # Charts used in this README
+├──                        # Charts used in this README
 ├── CPI_Anomaly_Banking_Risk_Presentation.pptx
 ├── requirements.txt
 ├── LICENSE
@@ -98,7 +98,7 @@ Python · pandas · NumPy · statsmodels (ARIMA/SARIMA) · arch (GARCH) · sciki
 git clone https://github.com/SamadhanEkad/CPI-Inflation-Anomaly-Detection-and-Banking-Risk-Assessment.git
 cd CPI-Inflation-Anomaly-Detection-and-Banking-Risk-Assessment
 pip install -r requirements.txt
-jupyter notebook cpi_anomaly_detection.ipynb
+jupyter notebook Regression_Project.ipynb
 ```
 
 ## Limitations & Next Steps
